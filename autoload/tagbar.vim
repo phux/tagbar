@@ -585,7 +585,6 @@ function! s:InitTypes() abort
         \ {'short' : 'd', 'long' : 'constant definitions', 'fold' : 0, 'stl' : 0},
         \ {'short' : 'f', 'long' : 'functions',            'fold' : 0, 'stl' : 1},
         \ {'short' : 'v', 'long' : 'variables',            'fold' : 0, 'stl' : 0},
-        \ {'short' : 'j', 'long' : 'javascript functions', 'fold' : 0, 'stl' : 1}
     \ ]
     let s:known_types.php = type_php
     " Python {{{3
